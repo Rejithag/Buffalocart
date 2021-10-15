@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.buffalocart.extentreport.ExtentReport"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.buffalocart.testscript.SalesCommissionTest"/>
+      <class name="com.buffalocart.testscript.UserTest"/>
+      <class name="com.buffalocart.testscript.HomeTest"/>
+      <class name="com.buffalocart.testscript.UserManagementTest"/>
+      <class name="com.buffalocart.testscript.AddRolesTest"/>
+      <class name="com.buffalocart.testscript.ResetTest"/>
+      <class name="com.buffalocart.testscript.UpdateRolesTest"/>
+      <class name="com.buffalocart.testscript.AddUserTest"/>
+      <class name="com.buffalocart.testscript.LoginTest"/>
+      <class name="com.buffalocart.automationcore.Base"/>
+      <class name="com.buffalocart.testscript.RolesTest"/>
+      <class name="com.buffalocart.testscript.SignoutTest"/>
+      <class name="com.buffalocart.testscript.UpdateUserTest"/>
+      <class name="com.buffalocart.testscript.DeleteUserTest"/>
+      <class name="com.buffalocart.testscript.DeleteRolesTest"/>
+       <class name="com.buffalocart.testscript.DeleteSalesCommissionAgentsTest"/>
+        <class name="com.buffalocart.testscript.AddSalesCommissionAgentsTest"/>
+        <class name="com.buffalocart.testscript.UpdateSalesCommissionAgentsTest"/>
+        <class name="com.buffalocart.testscript.ViewUserTest"/>
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
